@@ -1,0 +1,26 @@
+{
+  "name": "learning-full-stack-javascript-development-mongodb-node-and-react-2424660",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinkedInLearning/learning-full-stack-javascript-development-mongodb-node-and-react-2424660.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinkedInLearning/learning-full-stack-javascript-development-mongodb-node-and-react-2424660/issues"
+  },
+  "homepage": "https://github.com/LinkedInLearning/learning-full-stack-javascript-development-mongodb-node-and-react-2424660#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.7"
+  }
+}
