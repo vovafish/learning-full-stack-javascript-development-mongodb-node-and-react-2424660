@@ -19,7 +19,7 @@ module.exports = {
   plugins: [
     new webpack.EnvironmentPlugin({
       HOST: "0.0.0.0",
-      POST: "8080",
+      PORT: "8080",
     }),
   ],
 };

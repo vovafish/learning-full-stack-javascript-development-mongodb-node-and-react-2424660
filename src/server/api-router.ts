@@ -1,10 +1,16 @@
 import express from "express";
-import testData from "../test-data.json"
+import cors from "cors";
 
 const router = express.Router();
+router.use(cors());
+
+import testData from "../test-data.json";
 
 router.get("/contests", (req, res) => {
-    res.send([testData])
-})
+  // get the data from MongoDB
+  res.send(testData);
+});
+
+// router.get("/contest")
 
 export default router;
